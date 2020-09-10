@@ -29,4 +29,5 @@ public class dataType {
 	System.out.printf("Type: %-10s Size: %-10s Min: %-20s Max: %-20s \n", Character.TYPE, Character.BYTES,
 		Character.MIN_VALUE, Character.MAX_VALUE);
     }
+
 }
