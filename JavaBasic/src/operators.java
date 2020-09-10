@@ -40,7 +40,6 @@
 public class operators {
     public static void main(String[] args) {
 	int a = 100, b = 2, c = 3;
-	int sum = a + b + c;
 	System.out.println("Số b = " + b);
 	System.out.println("Số c = " + c);
 	System.out.println("Số a = " + a);
@@ -53,7 +52,6 @@ public class operators {
 	c += a++; // Thực hiện phép toán c = c + a trước rồi mới tăng a
 	System.out.println("Phép toán c += a++ c = " + c);
 	System.out.println("Số a sau khi thực hiện phép toán: " + a);
-
 	System.out.println("Sau tất cả a có nhỏ hơn b không? " + (a < b));
 	System.out.println((a < b) | (b > c));
 
@@ -61,4 +59,4 @@ public class operators {
 	String kq = (a > b) ? "Biểu thức này đúng" : "Biểu thức này sai";
 	System.out.println(kq);
     }
-};
+}
