@@ -19,5 +19,13 @@ public class variable {
 	location = "Vũng Tàu";
 	System.out.println(soA + soB + soC + soD + soE);
 	System.out.println(name + " Sống tại: " + location);
+
+	int kq = sum(12, 14);
+	System.out.println(kq);
     }
+
+    public static int sum(int a, int b) {
+	return a + b;
+    }
+
 }
